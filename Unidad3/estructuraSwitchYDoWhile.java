@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 2. Solicite un numero por pantalla
  * 3. Siempre que el numero se encuentre ente 1 y 5, ambos valores inclusive, escribira por pantalla: "Opcion 1/2/3/4 o 5 Ejecutada"
  */
-public class estructuraSswitchYDoWhile {
+public class estructuraSwitchYDoWhile {
 
     public static void main(String[] args) {
     System.out.println("1. Opcion 1 \n2. Opcion 2\n3. Opcion 3\n4. Opcion 4\n5. Opcion 5\n6. Salir");

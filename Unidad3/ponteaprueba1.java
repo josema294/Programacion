@@ -20,8 +20,6 @@ public class ponteaprueba1 {
         System.out.println("Los alumnos en clase son: " + clase);
         System.out.println("Tu nombre es " + nombre);
         System.out.println("La nota media es " + media);
-        
-
     }
 }       
 

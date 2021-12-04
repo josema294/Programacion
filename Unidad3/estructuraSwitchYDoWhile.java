@@ -34,6 +34,6 @@ public class estructuraSwitchYDoWhile {
     case 6:
         break;   
     }
-
+    input.close();
     }
 }

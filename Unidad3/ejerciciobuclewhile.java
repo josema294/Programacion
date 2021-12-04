@@ -8,10 +8,12 @@ public class ejerciciobuclewhile {
 
     public static void main(String[] args) {
 
-        byte x=0;
-        while (x<50){
-            x++;
+        byte x=1;
+        
+        while (x<51){
             System.out.println(x);
+            x++;
+            
         }
         
     }

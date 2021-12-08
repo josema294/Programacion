@@ -14,7 +14,12 @@ public class Fibonacci {
             
             Fibo1 = Fibo2 + Fibo1;
             Fibo2 =  Fibo1 - Fibo2;
+
+            
         }
+        
+        double numfibo = (double) Fibo1/ (double) Fibo2;
+        System.out.println(numfibo);
     }
     
 }

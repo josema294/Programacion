@@ -2,7 +2,9 @@
 
 import java.util.Scanner;
 
-public class Tarea5-1 {
+import javax.swing.plaf.synth.SynthScrollPaneUI;
+
+public class Tarea5part1 {
 
     public static void main(String[] args) {
         
@@ -11,6 +13,10 @@ public class Tarea5-1 {
         int n2 = entrada.nextInt();
         int n3 = entrada.nextInt();
 
+        int A = Math.max(n1,n2);
+        int B = Math.max(A,n3);
+
+        System.out.println("El numero mas grande que has introducido es: " + B);
         
     }
     

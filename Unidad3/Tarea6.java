@@ -19,7 +19,7 @@ public class Tarea6 {
             
         
         do {
-
+            System.out.println("Te volvemos a pedir las notas");
             System.out.println("tu nota media es: " + media);
             
             nota1 = input.nextInt();

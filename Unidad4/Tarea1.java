@@ -10,14 +10,14 @@ public class Tarea1 {
 
    public static void main(String[] args) {
 
-        var matrix = new int [3][5]; 
+        int[][] matrix = new int [3][5]; 
 
         Scanner input = new Scanner(System.in);
 
         for (int fila = 0; fila < matrix.length; fila++){
             for( int columna = 0; columna < matrix[fila].length; columna++){
                 matrix [fila][columna]= input.nextInt();
-            }
+                }
 
         }
 

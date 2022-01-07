@@ -19,6 +19,7 @@ public class Tarea5 {
             
             System.out.println();
         }
+        System.out.println("A continuacion mostramos una matriz 4x5 aleatoria, donde en amarillo se suman sus filas y sus columnas,\n" + "y en color rojo el total de ambas: \n");
 
         for (int fila =0; fila < matriz.length; fila++){
             //System.out.println();
@@ -26,10 +27,10 @@ public class Tarea5 {
 
                 sumf1 = sumf1 + matriz [fila] [columna];
                 
-                System.out.print("  ["+ matriz[fila][columna ]+ "] ");
+                System.out.print("["+ matriz[fila][columna ]+ "]");
 
             }
-        System.out.println("[[" + sumf1 + "]]");
+        System.out.println( "\u001B[33m" + "[" + sumf1 + "]" + "\u001B[0m");
         sumf1=0;
             
         }
@@ -40,7 +41,7 @@ public class Tarea5 {
                 sumc1 = sumc1 + matriz [fila] [columna];
                 
             }
-        System.out.print("[[" + sumc1 + "]]");
+        System.out.print("\u001B[33m" +"[" + sumc1 + "]");
         total = total + sumc1;
         sumc1=0;
         
@@ -48,7 +49,7 @@ public class Tarea5 {
 
             
         }
-        System.out.print("[[" + total + "]]");
+        System.out.print("\u001B[31m" +"[[" + total + "]]");
     }
     
 }

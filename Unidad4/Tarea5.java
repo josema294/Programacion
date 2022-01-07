@@ -13,7 +13,7 @@ public class Tarea5 {
                 matriz [fila] [columna] = (int) (Math.random()*10);
 
 
-               // System.out.print("["+ matriz[fila][columna ]+ "]");
+               // Impreso de Matriz original para controlar, comentamos para evitar matriz duplicada System.out.print("["+ matriz[fila][columna ]+ "]");
 
             }
             

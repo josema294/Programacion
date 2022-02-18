@@ -7,13 +7,13 @@ public class Cuenta {
     private double cantidad;
 
     //Creo el metodo constructor, con sobrecarga para que el mismo nombre tenga las dos opciones que nos piden.
-    Cuenta (String titular) {
+    public Cuenta (String titular) {
 
         this.titular = titular;
         
     }
 
-    Cuenta (String titular, double cantidad){
+    public Cuenta (String titular, double cantidad){
         
         this.cantidad = cantidad;
         this.titular = titular;

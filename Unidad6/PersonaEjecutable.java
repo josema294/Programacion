@@ -1,4 +1,4 @@
-package Unidad6;
+
 
 import java.util.Scanner;
 
@@ -35,6 +35,13 @@ public class PersonaEjecutable {
         System.out.println(persona1.calcularIMC());
         System.out.println(persona2.calcularIMC());
         System.out.println(persona3.calcularIMC());
+        System.out.println(persona1.esMayorDeEdad());
+        System.out.println(persona2.esMayorDeEdad());
+        System.out.println(persona3.esMayorDeEdad());
+
+        System.out.println(persona1.toString());
+        System.out.println(persona2.toString());
+        System.out.println(persona3.toString());
 
 
 

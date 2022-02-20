@@ -1,4 +1,4 @@
-package Unidad6;
+
 
 public class Persona {
 
@@ -94,7 +94,7 @@ public class Persona {
 
      private String generaDNI(){
         
-        int aleatoriodni = (int) Math.random()*99999999;
+        int aleatoriodni = (int) (Math.random()*99999999);
 
         int resto = aleatoriodni %23;
         char list [] = {'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B',

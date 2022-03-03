@@ -1,5 +1,3 @@
-package Unidad6;
-
 public class semaforo {
 
     private String color;

@@ -1,5 +1,3 @@
-
-
 public class Persona {
 
     //Declaracion de atributos

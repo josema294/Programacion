@@ -1,5 +1,3 @@
-package Unidad6;
-
 public class MainCuentaTest {
 
     public static void main(String[] args) {

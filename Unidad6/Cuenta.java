@@ -1,4 +1,3 @@
-package Unidad6;
 //Tarea 1 ejercicio 6
 
 public class Cuenta {

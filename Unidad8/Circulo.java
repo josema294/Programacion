@@ -7,9 +7,14 @@ public class Circulo extends FiguraGeometrica implements Printable{
         }
 
         @Override
-        public double calculararea() {
+        public double calculaArea() {
             return Math.PI*radio*radio;
         }
+
+        @Override
+        public double calculaPerimetro() {
+        return 2* Math.PI* radio;
+    }
 
         @Override
         public void printMe() {

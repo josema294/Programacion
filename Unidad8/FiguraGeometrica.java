@@ -1,6 +1,7 @@
 abstract class FiguraGeometrica {
 
-    public abstract double calculararea(); 
+    public abstract double calculaArea(); 
+    public abstract double calculaPerimetro();
 
     
 }

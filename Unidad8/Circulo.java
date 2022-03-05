@@ -22,6 +22,19 @@ public class Circulo extends FiguraGeometrica implements Printable{
             
         }
 
+
+        @Override
+        public boolean equals (Object j) {
+
+            if (this.getClass() == j.getClass() && this.radio == ((Circulo)j).radio){
+    
+                return true;
+            }
+    
+            else {return false;}
+    
+        }
+
         
 
         

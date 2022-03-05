@@ -1,31 +1,37 @@
 public class CasoPractico5 {
 
     public static void main(String[] args) {
-        
-        FiguraGeometrica figura [];
 
-        figura = new FiguraGeometrica [9];
-
-        figura[0] = new Circulo (2.8);
-        figura[1] = new Cuadrado (3);
-        figura[2] = new Circulo (7.1);
-        figura[3] = new Rectangulo(2.3, 3.1);
-        figura[4] = new Cuadrado (3);
-        figura[5] = new Rectangulo(5.3, 1.1);
-        figura[6] = new Circulo (10);
-        figura[7] = new Circulo (4);
-        figura[8] = new Rectangulo(3, 6.666);
-        
-        
-        for (FiguraGeometrica i : figura) {
-
-            System.out.println("El area es " + i.calculaArea() + " Y el perimetro es " + i.calculaPerimetro());
-        }
-
-        
+        FiguraGeometrica cuadrado1 = new Cuadrado(2);
+        FiguraGeometrica cuadrado2 = new Cuadrado(4.2);
+        FiguraGeometrica cuadrado3 = new Cuadrado(6);
+        FiguraGeometrica circulo1 = new Circulo(2);
+        FiguraGeometrica circulo2 = new Circulo(4.6);
+        FiguraGeometrica circulo3 = new Circulo(5.11);
+        FiguraGeometrica rectangulo1 = new Rectangulo(2, 3);
+        FiguraGeometrica rectangulo2 = new Rectangulo(4.4, 4.8);
+        FiguraGeometrica rectangulo3 = new Rectangulo(6.66, 7.98);
 
 
+        Figuras vectorFiguras = new Figuras(9);
+
+        vectorFiguras.add(cuadrado1);
+        System.out.println(vectorFiguras.toString());
+        vectorFiguras.remove(cuadrado1);
+        System.out.println(vectorFiguras.toString());
+        vectorFiguras.add(cuadrado1);
+        vectorFiguras.add(cuadrado2);
+        vectorFiguras.add(cuadrado3);
+        vectorFiguras.add(circulo1);
+        vectorFiguras.add(circulo1);
+        vectorFiguras.add(circulo1);
+        vectorFiguras.add(circulo1);
+        vectorFiguras.add(circulo1);
+        vectorFiguras.add(circulo1);
+
+        vectorFiguras.remove(circulo1);
+        System.out.println(vectorFiguras);
 
     }
-    
+
 }

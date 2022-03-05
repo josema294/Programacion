@@ -24,6 +24,18 @@ public class Cuadrado extends FiguraGeometrica implements Printable{
             
     }
 
+    @Override
+    public boolean equals (Object j) {
+
+        if (this.getClass() == j.getClass() && this.lado == ((Cuadrado)j).lado){
+
+            return true;
+        }
+
+        else {return false;}
+
+    }
+
     
     
     

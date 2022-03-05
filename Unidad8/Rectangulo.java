@@ -24,5 +24,17 @@ public class Rectangulo extends FiguraGeometrica implements Printable{
     public void printMe() {
         System.out.println("Rectangulo de base: " + base + " Y altura: " + altura);
     }
+
+    @Override
+        public boolean equals (Object j) {
+
+            if (this.getClass() == j.getClass() && this.base == ((Rectangulo)j).base && this.altura == ((Rectangulo)j).altura){
+    
+                return true;
+            }
+    
+            else {return false;}
+    
+        }
     
 }

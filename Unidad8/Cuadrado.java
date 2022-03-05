@@ -36,6 +36,11 @@ public class Cuadrado extends FiguraGeometrica implements Printable{
 
     }
 
+    @Override
+    public String toString() {
+        return "Cuadrado de: " + lado + "*" + lado;
+    }
+
     
     
     

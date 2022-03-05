@@ -36,5 +36,10 @@ public class Rectangulo extends FiguraGeometrica implements Printable{
             else {return false;}
     
         }
+
+    @Override
+    public String toString() {
+        return "Rectangulo de: " + base + "*" + altura;
+    }
     
 }

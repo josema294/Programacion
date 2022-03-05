@@ -35,6 +35,11 @@ public class Circulo extends FiguraGeometrica implements Printable{
     
         }
 
+        @Override
+        public String toString() {
+            return "Circulo de radio: " + radio ;
+        }
+
         
 
         

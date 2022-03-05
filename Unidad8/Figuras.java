@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+/** Clase para encapsular el vector de figura geomtricas, implementa metodos adecuados para que se pueda, agregar, eliminar figuras o imprimir el vector.*/  
 public class Figuras {
 
     FiguraGeometrica figuras[];
@@ -22,11 +22,13 @@ public class Figuras {
         for (int i =0; i < figuras.length; i++) {
             if (figuras[i] == null) {
                 figuras[i]=f;
+                System.out.println("La figura " + f +" Ha sido agregada");
                 return true;
                 
             }
 
         }
+        System.out.println("Vector de figuras saturado, la figura " + f + " No se ha podido agregar");
         return false;
     }
 
@@ -40,24 +42,49 @@ public class Figuras {
     public boolean remove(FiguraGeometrica f) {
 
         for (int i =0; i<figuras.length; i++) {
-
-            if (figuras[i].equals(f)){
-
+            
+            if (figuras[i] == null){
+                continue;
+            }
+            else if (figuras[i].equals(f)) { 
+                
                 figuras [i]= null;
+                System.out.println("La figura " + f + " Ha sido eliminada");
                 return true;
                 
             }
 
         }
+        System.out.println("No se ha podido eliminar la figura " + f);
         return false;
 
     }
 
     @Override
     public String toString() {
-        return "Figuras [figuras=" + Arrays.toString(figuras) + "]";
+
+        String add; 
+        String adevolver = "";
+
+        for (int i=0; i < figuras.length; i++) {
+
+            if (figuras[i] == null ) {
+                add = "Objeto vacio";
+                adevolver += add + "\n";
+            }
+
+            else { 
+                add = figuras[i].toString();
+                adevolver = adevolver + add + "\n";
+            }
+
+
+        }
+
+        return "Los objetos que componen el vector son los siguientes : \n" + adevolver;
     }
+}
 
    
 
-}
+

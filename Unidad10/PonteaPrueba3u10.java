@@ -39,7 +39,7 @@ public class PonteaPrueba3u10 {
             validador = false;
             }
 
-            //Los catch mostraran el mensaej de error segun proceda, aunque no deberian producirse otros casos, incluimos un caso general que llama
+            
             catch (UltimoDigitoNoLetra e) {
 
                 System.out.println("El formato introducido no es correcto: ");
@@ -63,7 +63,7 @@ public class PonteaPrueba3u10 {
 
             /* Esta parte del codigo no se ejecutara en el estado actual del programa, no hay casos de ValidaDNI() que no esten cubiertos, pero la incluyo porque 
             el codigo se podria ampliar y mejorar con casos que no estuvieran especificados, y podriamos llamarla como un error mas generico.
-            Por ejemplo 50906070あ es un DNI valido en este programa porque あ es un caracter, pero no es un DNI valido, con un validaDNI() mejor hecho podriamos 
+            Por ejemplo 50906070あ es un DNI valido en este programa porque あ es un caracter, pero no es un DNI valido en la vida real, con un validaDNI() mejor hecho podriamos 
             contemplar casos mas raros y menos especificos y lanzar un error mas general para que no nos puedan boicotear el programa.
              */
             catch (InputMismatchException e) {

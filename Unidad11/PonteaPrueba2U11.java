@@ -19,7 +19,7 @@ public class PonteaPrueba2U11 {
             String salida = read.readLine();
             System.out.println(salida);
         } catch (IOException e) {
-            // TODO Auto-generated catch block
+            
             e.printStackTrace();
         }
 

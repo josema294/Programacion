@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PonteaPrueba5u11",
+            "request": "launch",
+            "mainClass": "Unidad11.PonteaPrueba5u11",
+            "projectName": "Programacion_dac2ff8"
+        },
+        {
+            "type": "java",
+            "name": "Launch PonteaPrueba3U11",
+            "request": "launch",
+            "mainClass": "Unidad11.PonteaPrueba3U11",
+            "projectName": "Programacion_dac2ff8"
+        },
+        {
+            "type": "java",
+            "name": "Launch PonteaPrueba1U11",
+            "request": "launch",
+            "mainClass": "Unidad11.PonteaPrueba1U11",
+            "projectName": "Programacion_dac2ff8"
+        },
+        {
+            "type": "java",
+            "name": "Launch PonteaPrueba3u10",
+            "request": "launch",
+            "mainClass": "Unidad10.PonteaPrueba3u10",
+            "projectName": "Programacion_dac2ff8"
+        },
+        {
+            "type": "java",
+            "name": "Launch ActividadSemana29pr2",
+            "request": "launch",
+            "mainClass": "ActividadSemana29pr2",
+            "projectName": "Programacion_dac2ff8"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProbarLista",
+            "request": "launch",
+            "mainClass": "Unidad9.ProbarLista",
+            "projectName": "Programacion_dac2ff8"
+        },
+        {
+            "type": "java",
+            "name": "Launch CasoPractico5",
+            "request": "launch",
+            "mainClass": "CasoPractico5",
+            "projectName": "Programacion_dac2ff8"
+        },
+        {
+            "type": "java",
             "name": "Launch CasoPractico1",
             "request": "launch",
             "mainClass": "Unidad8.CasoPractico1",

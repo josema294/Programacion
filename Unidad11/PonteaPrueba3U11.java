@@ -38,5 +38,8 @@ public class PonteaPrueba3U11 {
             
         }
 
+        escaneado.close();
+        entrada.close();
+
     }
 }

@@ -1,4 +1,3 @@
-import java.util.Arrays;
 /** Clase para encapsular el vector de figura geomtricas, implementa metodos adecuados para que se pueda, agregar, eliminar figuras o imprimir el vector.*/  
 public class Figuras {
 

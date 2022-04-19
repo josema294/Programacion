@@ -30,7 +30,8 @@ public class PonteaPrueba3u10 {
         String dni;
         boolean validador = true;
 
-        //He decidido incluir un buble while para que en vez de terminar el programa vuelva a pedir el DNI si este se introduce incorrectamente
+        //He decidido incluir un buble while para que en vez de terminar el programa vuelva a pedir el DNI si este se introduce incorrectamente,
+    
         while (validador) {
             try {
             System.out.print("Introduce el DNI: ");
